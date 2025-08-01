@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SASTI LASER METAL CUTTING</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-laser-pointer"></i>
+                    <span>SASTI LASER</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="products.html" class="nav-link">Product Models</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-link active">Contact Us</a>
+                </nav>
+                <button class="cta-button">
+                    <i class="fas fa-quote-right"></i>
+                    Get a Quotation
+                </button>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNZZY_xZlYd_eJ2rd-Qe4BXwemeFEnYVRS2Y8SP=s1360-w1360-h1020-rw" alt="Contact background">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Get In Touch</h1>
+                <p>Ready to discuss your laser cutting project? Contact us today</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone Numbers</h3>
+                    <p>95148 20777</p>
+                    <p>73730 71700</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Location</h3>
+                    <p>64WR+5X, Bye Pass Side Road, near Sugan Feed Mills, behind Builder Mahal Back Side, Nallipalayam, Tamil Nadu 637003</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Address</h3>
+                    <p>sastigroupsnkl@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotation Form Section -->
+    <section class="quotation-section">
+        <div class="container">
+            <div class="quotation-content">
+                <div class="quotation-image">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOw1SI2rylKm62V55DzPzcRCbndQ9TYGgNFwleX=s1360-w1360-h1020-rw" alt="Company building">
+                </div>
+                <div class="quotation-form">
+                    <h2>Request a Quotation</h2>
+                    <p>Fill out the form below and we'll get back to you with a detailed quote for your project.</p>
+                    
+                    <form id="quotationForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="co2-laser">CO2 Laser Cutting</option>
+                                <option value="fiber-laser">Fiber Laser Cutting</option>
+                                <option value="galvo-laser">Galvo Laser Cutting</option>
+                                <option value="plasma-cutting">Plasma Cutting</option>
+                                <option value="drilling">Drilling</option>
+                                <option value="custom">Custom Project</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="material">Material Type</label>
+                            <select id="material" name="material">
+                                <option value="">Select material</option>
+                                <option value="stainless-steel">Stainless Steel</option>
+                                <option value="aluminum">Aluminum</option>
+                                <option value="copper">Copper</option>
+                                <option value="mild-steel">Mild Steel</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Please describe your project requirements, dimensions, quantity, and any specific details..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Request
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us on Map</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Nammakkal Builders Mahal</h3>
+                    <p>64WR+5X, Bye Pass Side Road, near Sugan Feed Mills, behind Builder Mahal Back Side, Nallipalayam, Tamil Nadu 637003</p>
+                    <button class="map-btn">
+                        <i class="fas fa-directions"></i>
+                        Get Directions
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Hours -->
+    <section class="business-hours">
+        <div class="container">
+            <h2>Business Hours</h2>
+            <div class="hours-grid">
+                <div class="hours-card">
+                    <h3>Working Days</h3>
+                    <div class="hours-list">
+                        <div class="hours-item">
+                            <span>Monday - Friday</span>
+                            <span>9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Saturday</span>
+                            <span>9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span>Sunday</span>
+                            <span>Closed</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hours-card">
+                    <h3>Emergency Service</h3>
+                    <p>For urgent projects and emergency services, please call us directly. We provide 24/7 support for critical industrial requirements.</p>
+                    <div class="emergency-contact">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>95148 20777</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-laser-pointer"></i>
+                        <span>SASTI LASER</span>
+                    </div>
+                    <p>Professional laser metal cutting services with 25+ years of experience. We provide precision cutting solutions for all your metal fabrication needs using the latest technology and equipment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Product Models</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Details</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>95148 20777</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sastigroupsnkl@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>64WR+5X, Bye Pass Side Road, near Sugan Feed Mills, behind Builder Mahal Back Side, Nallipalayam, Tamil Nadu 637003</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          <div class="footer-bottom">
+    <p>
+        All Rights Reserved SASTI LASER METAL CUTTING || Developed By 
+        <a href="https://etouchsolutions.in/" target="_blank" class="developer">ETOUCH SOLUTIONS</a>
+    </p>
+</div>
+
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

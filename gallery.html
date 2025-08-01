@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - SASTI LASER METAL CUTTING</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-laser-pointer"></i>
+                    <span>SASTI LASER</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="products.html" class="nav-link">Product Models</a>
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                    <a href="contact.html" class="nav-link">Contact Us</a>
+                </nav>
+                <button class="cta-button">
+                    <i class="fas fa-quote-right"></i>
+                    Get a Quotation
+                </button>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-bg">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMExkqI1qa5KXSkpzKs9Rftt7CKkRRDAI4s1tDd=s1360-w1360-h1020-rw" alt="Gallery background">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Gallery</h1>
+                <p>Explore our portfolio of precision laser cutting work and craftsmanship</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2>Our Working Gallery</h2>
+            <p class="section-subtitle">Discover the precision and artistry in our laser cutting projects</p>
+            
+            <!-- Gallery Filter -->
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="decorative">Decorative</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+                <button class="filter-btn" data-filter="artistic">Artistic</button>
+                <button class="filter-btn" data-filter="signage">Signage</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOXHpXg-nLzRr8ca8iojkbg0BgfKJof5jC1FJZA=s1360-w1360-h1020-rw" alt="Decorative peacock design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Peacock Panel</h3>
+                            <p>Intricate peacock design cut from stainless steel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPqEwE8PaykJr1J2XLepK7UJBGNIkgxRu5yOo2d=s1360-w1360-h1020-rw" alt="Industrial components">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Industrial Components</h3>
+                            <p>Precision-cut parts for machinery</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOC1aDiZWVhjqS5TDIZ-UCN46DOSk0r5uhXRN0G=s1360-w1360-h1020-rw" alt="Artistic floral pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Floral Art Panel</h3>
+                            <p>Custom artistic floral design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipM5cBxHPNXLVIj2Jguw9ueP_lRjgybv3sg6p-B6=s1360-w1360-h1020-rw" alt="Geometric pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Geometric Pattern</h3>
+                            <p>Modern geometric design panel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMUIXS9scAExBSGaB0fhWUBHphHvFTLReaUUMpA=s1360-w1360-h1020-rw" alt="Business signage">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Business Signage</h3>
+                            <p>Professional cut letters and logos</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMc2iqiGcgJ25nOg60eTxKStQ2HnTY_EGxEv6Ly=s1360-w1360-h1020-rw" alt="Precision brackets">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Precision Brackets</h3>
+                            <p>Custom mounting solutions</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipM2L6SyZCbo8wk_KL0UvjdDoPrCFJuwlBuddW37=s1360-w1360-h1020-rw" alt="Mandala design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mandala Design</h3>
+                            <p>Intricate mandala pattern cutting</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nocpjUjJY0hjaPLSstA_Q9h1t_Rr9nMjx8sq2d2DLSO7H_Jn5o9b-wUhFnXwXcY5ibZWdtxZ78xw65HbN0kKcZB0NY5hi_WeZD82HORtSgglMva4PdjTJusCkjbK7oYyoIvPKObjKlyweY=s1360-w1360-h1020-rw" alt="Architectural screen">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Architectural Screen</h3>
+                            <p>Privacy screen with elegant pattern</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOp_MDMAHOl3WJXotVKE7Pgx4Bi2uI0pqAwoSNG=s1360-w1360-h1020-rw" alt="Company logo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Company Logo</h3>
+                            <p>3D cut company branding</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNG2MFUwbuACxGsrq7J5UKDxcejLNERfoOQYuFx=s1360-w1360-h1020-rw" alt="Machine parts">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Machine Parts</h3>
+                            <p>High-precision mechanical components</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipO0EvnidNyuxBy9kTO9eN-kZn1Kp4yI2xl_G7KI=s1360-w1360-h1020-rw" alt="Abstract art">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Abstract Art Panel</h3>
+                            <p>Contemporary abstract design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipN9XzkDzcPapRUdi49_ftmHdL4xcj3FZKUgoA2E=s1360-w1360-h1020-rw" alt="Decorative border">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Border</h3>
+                            <p>Ornamental border design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPAnRvpgyfWtpqMjDBcQdy2R9OkGqLXThd49cyL=s1360-w1360-h1020-rw" alt="Decorative peacock design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Peacock Panel</h3>
+                            <p>Intricate peacock design cut from stainless steel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPBYZQ3IO1XYZofBynuF5A-xW8I_00Do2PhhYSR=s1360-w1360-h1020-rw" alt="Industrial components">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Industrial Components</h3>
+                            <p>Precision-cut parts for machinery</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipN24ydXsg-0tqJaDnoQYkRP9oQ4brGfrtNGOuIW=s1360-w1360-h1020-rw" alt="Artistic floral pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Floral Art Panel</h3>
+                            <p>Custom artistic floral design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOZr642_EQAQ1omEJu8ddOu8Ag7Ng8qysmu_7DG=s1360-w1360-h1020-rw" alt="Geometric pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Geometric Pattern</h3>
+                            <p>Modern geometric design panel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMSJVfn0NgTVgW4OWEwT9goc5Pt9MVkjH8fB4AT=s1360-w1360-h1020-rw" alt="Business signage">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Business Signage</h3>
+                            <p>Professional cut letters and logos</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMhaU31i-tt9wWUMscHpY854fyPb1LDCuiYLWYC=s1360-w1360-h1020-rw" alt="Precision brackets">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Precision Brackets</h3>
+                            <p>Custom mounting solutions</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOs5GljefQE30yab2XVhGcUTrmbq7S53h6CGXvD=s1360-w1360-h1020-rw" alt="Mandala design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mandala Design</h3>
+                            <p>Intricate mandala pattern cutting</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNZ4hiWhqwdqhOyBRbUA74IgIT-j0H6PHBTEUTZ=s1360-w1360-h1020-rw" alt="Architectural screen">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Architectural Screen</h3>
+                            <p>Privacy screen with elegant pattern</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOykE7x5f074eHc31q9WgcVf0eLTI0cxfocB9ZC=s1360-w1360-h1020-rw" alt="Company logo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Company Logo</h3>
+                            <p>3D cut company branding</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOSkfvaaNSv19T5OADNNp7eviNztVv_ye5aXGEp=s1360-w1360-h1020-rw" alt="Machine parts">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Machine Parts</h3>
+                            <p>High-precision mechanical components</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nq-hUVaSV2L3wKqeA3pheE_nZ3Ay8vPCfUMyXo4cNdby-UuB-L_7CvoHS8yQmka44851Hvw62NqBPM5E-NtKzIcmWy7qWF5S9xcSn5n2__Fsx8MdHXV3TlU2Uq5995hrer8UUlNTQ=s1360-w1360-h1020-rw" alt="Abstract art">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Abstract Art Panel</h3>
+                            <p>Contemporary abstract design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPUCzstSu1rtyj3kThz9lI12RxOXfMrTSh4k-xx=s1360-w1360-h1020-rw" alt="Decorative border">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Border</h3>
+                            <p>Ornamental border design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOlDUn2n59DGxcsQ6luMireW2B3tc1J2Gtr5SDo=s1360-w1360-h1020-rw" alt="Decorative peacock design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Peacock Panel</h3>
+                            <p>Intricate peacock design cut from stainless steel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOtZFXhzmK2_DfLVy6n07Qig6Zjt3AHzCr3EHsk=s1360-w1360-h1020-rw" alt="Industrial components">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Industrial Components</h3>
+                            <p>Precision-cut parts for machinery</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNSg4o_d_ZKlP5RCeIMrnrSoGF3XAkuC3bzUfw6=s1360-w1360-h1020-rw" alt="Artistic floral pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Floral Art Panel</h3>
+                            <p>Custom artistic floral design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1" alt="Geometric pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Geometric Pattern</h3>
+                            <p>Modern geometric design panel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMhGojMYj1cETmxyVmUE1rh9UUVEo4NTN9MFqWs=s1360-w1360-h1020-rw" alt="Business signage">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Business Signage</h3>
+                            <p>Professional cut letters and logos</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNX8cYb7IDV2BTdOGFE0cLgGQgsoBS4qowIEENe=s1360-w1360-h1020-rw" alt="Precision brackets">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Precision Brackets</h3>
+                            <p>Custom mounting solutions</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrpQonlngUC6hR9wM30HO7jEsCIGeWHZMBZv3gLaJAJFvPKN3GP9nnQTkJoK4BOiqOWfhiUAlmLpnhSu18AK9YC63eEbgm4BGpzPf9r7ArGXd7Za3bs6Tglz7UxRceIU0rdhzsK0Wjd3tN-=s1360-w1360-h1020-rw" alt="Mandala design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mandala Design</h3>
+                            <p>Intricate mandala pattern cutting</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOQ5HZhYVUCTiNUAowZJiDfsEapdBIXaQV-5Jnc=s1360-w1360-h1020-rw" alt="Architectural screen">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Architectural Screen</h3>
+                            <p>Privacy screen with elegant pattern</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMEJWHW4CPza88CpM-VKB7vTVQ2ocUzzl00OuK4=s1360-w1360-h1020-rw" alt="Company logo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Company Logo</h3>
+                            <p>3D cut company branding</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipN4s8Vr1j_Aow2G4pmTVNz9ZEtFnsjMqd9YxpOn=s1360-w1360-h1020-rw" alt="Machine parts">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Machine Parts</h3>
+                            <p>High-precision mechanical components</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nplrZuIdOVgrfJy8cCgm5XRTjkKI0aK41XGoLc-NE9DOMEMzAFTl8VrjoIAhC1YbJeyDLa_u2BuLS4A8nsT9Ql4BLYYmHP3mz_JOmyXfq1D1Ekr4jlcrAhzyl76UXnZerQZktQEFiBVwRUb=s1360-w1360-h1020-rw" alt="Abstract art">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Abstract Art Panel</h3>
+                            <p>Contemporary abstract design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOYOXUTHMzRltRPxsl2UGE2-vfpUWa3WFn9BEMt=s1360-w1360-h1020-rw" alt="Decorative border">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Border</h3>
+                            <p>Ornamental border design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipPd1KJlQVO-yzruFBy0sFsuA3p6BwMZDnxcK2nt=s1360-w1360-h1020-rw" alt="Decorative peacock design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Peacock Panel</h3>
+                            <p>Intricate peacock design cut from stainless steel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNnuC5z-zaHMNyAHJ9up70IeXNXR82fV5MCOf7k=s1360-w1360-h1020-rw" alt="Industrial components">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Industrial Components</h3>
+                            <p>Precision-cut parts for machinery</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOzj4yHJzzdu0-hVF1gFCITGyGL3OmPg7InYC6r=s1360-w1360-h1020-rw" alt="Artistic floral pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Floral Art Panel</h3>
+                            <p>Custom artistic floral design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOhRReIUI2fHWJpxJXzfBK_geZHecBdRMro0nj_=s1360-w1360-h1020-rw" alt="Geometric pattern">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Geometric Pattern</h3>
+                            <p>Modern geometric design panel</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOcjOX08YW0VeA1Tqvu27h8dz0SJITkN7zWWtrA=s1360-w1360-h1020-rw" alt="Business signage">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Business Signage</h3>
+                            <p>Professional cut letters and logos</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOIscOaOq1oTf_SAOy68Jj7RK8_DkYNt2ApBRih=s1360-w1360-h1020-rw" alt="Precision brackets">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Precision Brackets</h3>
+                            <p>Custom mounting solutions</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOnETUM8dXWu7_fCSZZwC2cUcQy72E0dn3ORifJ=s1360-w1360-h1020-rw" alt="Mandala design">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mandala Design</h3>
+                            <p>Intricate mandala pattern cutting</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipOAClgW5scm4yoTGB75Oss2zpzTa2XxY7HHyqE2=s1360-w1360-h1020-rw" alt="Architectural screen">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Architectural Screen</h3>
+                            <p>Privacy screen with elegant pattern</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNiRW3nzkCdBsVb4Kj-RVQy5eO-jBYhgkJTMBfL=s1360-w1360-h1020-rw" alt="Company logo">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Company Logo</h3>
+                            <p>3D cut company branding</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="industrial">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqAccVPT3KTtmcsSWnt9a4m7Q6Siu6-clHgeJHq8gaHDHAgQKaeFbAlJ-fh-ajgi7CdwCb-Uj6FMHL3_6BCmO1Ohv6DqUbl6eNTNiq6VpYjIkBkLHJeW49cKkXNfbfNPYHzVFPh9Q=s1360-w1360-h1020-rw" alt="Machine parts">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Machine Parts</h3>
+                            <p>High-precision mechanical components</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="artistic">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMRWwAGDuH1UfgXsFlEc8gzqUwLs0KMEyn1P9xb=s1360-w1360-h1020-rw" alt="Abstract art">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Abstract Art Panel</h3>
+                            <p>Contemporary abstract design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="decorative">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipMGT-S8HV2X7w0nmq2k1x9G6GH71yj6WEOnjHPB=s1360-w1360-h1020-rw" alt="Decorative border">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Decorative Border</h3>
+                            <p>Ornamental border design</p>
+                        </div>
+                        <button class="gallery-view-btn"><i class="fas fa-expand"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+   <section class="video-section">
+  <div class="container">
+    <h2>Watch Our Work in Action</h2>
+    <div class="video-grid">
+
+      <div class="video-item">
+        <div class="video-wrapper">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/gdsJhd1HGmc" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-wrapper">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Z2Kv3sVvQp0" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-wrapper">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Q5hKxLnU7rk" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="video-item">
+        <div class="video-wrapper">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/DqRBFJxIDXM" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="Gallery Image">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+            </div>
+            <div class="modal-nav">
+                <button id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-laser-pointer"></i>
+                        <span>SASTI LASER</span>
+                    </div>
+                    <p>Professional laser metal cutting services with 25+ years of experience. We provide precision cutting solutions for all your metal fabrication needs using the latest technology and equipment.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Product Models</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Details</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>95148 20777</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sastigroupsnkl@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>64WR+5X, Bye Pass Side Road, near Sugan Feed Mills, behind Builder Mahal Back Side, Nallipalayam, Tamil Nadu 637003</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+    <p>
+        All Rights Reserved SASTI LASER METAL CUTTING || Developed By 
+        <a href="https://etouchsolutions.in/" target="_blank" class="developer">ETOUCH SOLUTIONS</a>
+    </p>
+</div>
+
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

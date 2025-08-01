@@ -48,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 10px 0;
 }
 
 .logo {
@@ -548,4 +548,9 @@ section h2 {
 
 .footer-bottom .developer:hover {
     text-decoration: underline;
+}
+
+.logo-img{
+    width: 70px;
+    height: auto;
 }

@@ -172,11 +172,11 @@ class SastiLaserWebsite {
         }
 
         // Header background opacity
-        const header = document.querySelector('.header');
-        if (header) {
-            const opacity = Math.min(scrollY / 100, 0.95);
-            header.style.background = `rgba(58, 15, 15, ${opacity})`;
-        }
+       // const header = document.querySelector('.header');
+       // if (header) {
+        //    const opacity = Math.min(scrollY / 100, 0.95);
+        //    header.style.background = `rgba(58, 15, 15, ${opacity})`;
+       // }
 
         // Parallax effect for images
         const parallaxElements = document.querySelectorAll('.hero-bg img');
